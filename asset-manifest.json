@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/medSite/static/css/main.91ae36c5.css",
-    "main.js": "/medSite/static/js/main.2f3e8eee.js",
+    "main.css": "/medSite/static/css/main.32ce69a1.css",
+    "main.js": "/medSite/static/js/main.0b8ac074.js",
     "static/js/453.0a9f4b6c.chunk.js": "/medSite/static/js/453.0a9f4b6c.chunk.js",
+    "static/media/homepage-image.jpg": "/medSite/static/media/homepage-image.50d1a6d634027c7c67f2.jpg",
     "index.html": "/medSite/index.html",
-    "main.91ae36c5.css.map": "/medSite/static/css/main.91ae36c5.css.map",
-    "main.2f3e8eee.js.map": "/medSite/static/js/main.2f3e8eee.js.map",
+    "main.32ce69a1.css.map": "/medSite/static/css/main.32ce69a1.css.map",
+    "main.0b8ac074.js.map": "/medSite/static/js/main.0b8ac074.js.map",
     "453.0a9f4b6c.chunk.js.map": "/medSite/static/js/453.0a9f4b6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91ae36c5.css",
-    "static/js/main.2f3e8eee.js"
+    "static/css/main.32ce69a1.css",
+    "static/js/main.0b8ac074.js"
   ]
 }

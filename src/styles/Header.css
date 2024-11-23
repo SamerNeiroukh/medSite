@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #f44336;
+  padding: 20px 20px;
+  font-family: Arial, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 8px 16px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 236, 89); /* The underline color */
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Expand underline fully on hover */
+}
+
+.nav-link:hover {
+  color: #ffe863; /* Change text color to gold on hover */
+}
+
+/* Active link (when clicked) */
+.active-link {
+  color: #ffe863; /* Same hover color for active link */
+}
+
+.active-link::after {
+  width: 100%; /* Keep underline for active link */
+}

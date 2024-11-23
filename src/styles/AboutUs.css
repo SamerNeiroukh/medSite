@@ -1,0 +1,32 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center the text */
+  height: 100%; /* Fill the container */
+  padding: 20px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #f44336;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.8;
+  max-width: 800px; /* Restrict text width for better readability */
+}
+
+.about-link {
+  color: #f44336;
+  text-decoration: none;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+}

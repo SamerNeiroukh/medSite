@@ -1,0 +1,77 @@
+.contact-page {
+    font-family: 'Arial', sans-serif;
+    direction: rtl; /* Right-to-left alignment for Hebrew */
+    text-align: right;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto; /* Center the page */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-title {
+    text-align: center;
+    color: #f44336;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between form elements */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #f44336;
+    box-shadow: 0 0 5px rgba(244, 67, 54, 0.5);
+  }
+  
+  textarea {
+    resize: none; /* Prevent resizing for better UX */
+  }
+  
+  .submit-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #d32f2f;
+  }
+  

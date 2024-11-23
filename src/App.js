@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import AboutUs from "./pages/AboutUs";
+import Courses from "./components/Courses";
+import Registration from "./components/Register";
+import Contact from "./components/ContactForm";
+import "./App.css"; // Ensure you include the CSS
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="/medSite">
+      <div className="app-container">
+        {/* Header always visible */}
+        <Header />
+        
+        {/* Routes for the main content */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/registration" element={<Registration />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+        {/* Footer sticks to the bottom */}
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
